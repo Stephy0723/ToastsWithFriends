@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f5e8; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+header {
+  background-color: #377529; 
+  color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 10px; 
+}
+
+.paragraph {
+  background-color: #fff; 
+  margin-bottom: 20px;
+  border-radius: 10px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.paragraph h2 {
+  color: #377529; 
+  margin-top: 0;
+}
+.paragraph p {
+  color: #555; 
+  line-height: 1.5; 
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.search-section {
+  margin-top: 50px; 
+  text-align: center; 
+}
+
+.search-section form {
+  margin-bottom: 20px; 
+}
+
+.search-section input[type="text"] {
+  width: 100%; 
+  padding: 15px; 
+  font-size: 18px; 
+}
+
+.search-section button[type="submit"] {
+  background-color: #377529;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-section button[type="submit"]:hover {
+  background-color: #2d5f20; 
+}
+
+h2 {
+  color: #377529; 
+}
+
+.comments-section .comment {
+  background-color: #fff; 
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
